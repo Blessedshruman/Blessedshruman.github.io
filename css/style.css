@@ -1,0 +1,569 @@
+@import 'fonts.css';
+
+body {
+    background-color: #f9f9f9;
+
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu-bar {
+    color: #0260be;
+    padding-top: 30px;
+
+}
+
+.menu__item {
+    font-family: 'Fauna One', serif;
+    margin-left: 46px;
+}
+.menu__item a {
+    color: #6b6b6b;
+    font-size: 13.44px;
+    text-decoration: none
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #212121
+}
+
+
+.head__title {
+    font-family: 'PlayFair Display Bold';
+    font-size: 57.6px;
+}
+
+.head__under {
+    font-family: 'Fauna One', serif;
+    font-size: 21.12px;
+    color: #6b6b6b;
+}
+
+.head__text {
+    padding-top: 220px;
+}
+
+.head__img {
+    padding-top: 130px;
+}
+
+.number {
+    font-size: 15.36px;
+    border: 1px solid #0260be;
+    border-radius:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.button__purple {
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 17.28px;
+    font-family: 'Fauna One', serif;
+    background: linear-gradient(to right, #a01898, #e333d9);
+    border: 0px;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button__purple:hover {
+    text-decoration: none;
+    background: linear-gradient(to right, #610f5b, #b82ab1);
+}
+
+.button__blue {
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 17.28px;
+    font-family: 'Fauna One', serif;
+    background: linear-gradient(to right, #025dbb, #0480fd);
+    border: 0px;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 25px;
+}
+
+.button__blue:hover {
+    text-decoration: none;
+    background: linear-gradient(to right, #013d79, #0159b1);
+}
+
+.button__white {
+    margin-top: 55px;
+    color: #ffffff;
+    font-size: 17.28px;
+    font-family: 'Fauna One', serif;
+    background: #0372e3;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+.button__white:hover {
+    text-decoration: none;
+    background: #4f9deb;
+}
+.functions {
+    padding-top: 92px;
+}
+
+.whitebox {
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:15px;
+}
+
+
+.functions__text {
+    font-size: 21px;
+    font-family: 'Fauna One', serif;
+    color: #909090;
+    line-height:1;
+}
+
+.functions__btext {
+    font-size: 21px;
+    font-family: 'Fauna One', serif;
+    color: #262626;
+    text-align: left;
+    line-height:1.1;
+}
+
+.functions__img {
+    float: left;
+    background-image: url(images\heart.png);
+    padding-bottom:30px;
+}
+
+.nonheart {
+    position: relative;
+    z-index: 5;
+    
+}
+
+.nonlivheart {
+    position: relative;
+    z-index: 5;
+    left:20px;
+}
+
+.heart {
+    position: relative;
+    z-index: 4;
+    left: -70px;
+}
+
+.livheart {
+    position: relative;
+    z-index: 4;
+    left: -50px;
+}
+.description {
+    padding-top: 160px;
+    padding-left:110px;
+}
+.description__img {
+    position: relative;
+    left:-200px;
+}
+
+.description__text {
+    font-size: 46px;
+    font-family: 'Playfair Display', serif;
+    color: #262626;
+}
+
+.description__btext {
+    font-size: 15.36px;
+    font-family: 'Fauna One', serif;
+    color: #909090;
+}
+
+.description__utext {
+    font-size: 21.12px;
+    font-family: 'Fauna One', serif;
+    color: #262626;
+    margin-bottom:5px;
+}
+
+.description2 {
+    position:relative;
+    top:-20px;
+}
+
+.reasons {
+    margin-top: 175px;
+}
+.reasons__text {
+    font-size: 46px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    display:block;
+    text-align:center;
+    margin-top:90px;
+    margin-bottom:68px;
+}
+
+.reasons__btext {
+    font-size: 15.4px;
+    font-family: 'Fauna One', serif;
+    color: #ffffff;
+    display:block;
+    margin-top:19px;
+}
+
+.reasons__wtext {
+    font-size: 46px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    display:block;
+}
+
+.callform__btext {
+    font-size: 15.4px;
+    font-family: 'Fauna One', serif;
+    color: #ffffff;
+    display:block;
+    margin-top:19px;
+}
+
+.callform__wtext {
+    font-size: 46px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    display:block;
+    margin-top:89px;
+}
+.whitebox__wide {
+    background: #ffffff;
+    padding-right:36px;
+    padding-left:36px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:15px;
+}
+
+.callform {
+    margin-top:130px;
+}
+.blue {
+    background: #0372e3;
+}
+
+.blueform {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.blueinput input{
+    font-family:'Fauna One', serif;
+    margin-top:30px;
+    background-color: #0372e3;
+    color: #ffffff;
+    border: 1px solid #4f9deb;
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+    border-radius:0px;
+    
+}
+
+.whiteinput {
+    background-color: #ffffff;
+    border:0px soild #dedede;
+    border-radius:5%;
+    position:relative;
+    width: 600px;
+    height: 680px;
+}
+
+.whiteinput input {
+    font-family:'Fauna One', serif;
+    margin-top:60px;
+    background-color: #ffffff;
+    color: #dedede;
+    border: 1px solid #dedede;
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+    border-radius:0px;
+}
+
+.whiteinput__text {
+    font-size:15.36px;
+    font-family:'Fauna One', serif;
+    color: #dedede;
+    margin-top:50px;
+    position:relative;
+    margin-bottom:-40px;
+}
+
+input[type="blue"]::placeholder {
+    color: #96b8ef;
+}
+
+.callform__img {
+    position:relative;
+    top:124px;
+}
+
+.steps {
+    margin-top:300px;
+    margin-right:60px;
+
+}
+
+.steps__right {
+    float: right;
+    margin-right:50px;
+}
+
+.steps__img {
+    width: 100%;
+    height: auto;
+}
+
+.steps__rtext {
+    font-size:46px;
+    margin-top:60px;
+    font-family: 'Playfair Display', serif;
+}
+
+.steps__lbtext {
+    font-size:21px;
+    font-family:'Fauna One', serif;
+}
+
+.steps__ltext {
+    font-size:15.4px;
+    font-family:'Fauna One', serif;
+    color: #909090;
+    text-align:center;
+}
+
+.steps__number {
+    font-size: 17.3px;
+    font-family:'Fauna One', serif;
+    
+}
+
+.steps__steps{
+    text-align:center;
+    background-image: url(images\line.png);
+}
+
+.steps__step1 {
+    position:relative;
+    left:100px;
+    bottom:25px;
+}
+
+.steps__step2 {
+    position:relative;
+    bottom:210px;
+    left:170px;
+}
+
+.steps__step3 {
+    position:relative;
+    left:240px;
+    bottom:90px;
+}
+
+.steps__number {
+    margin-bottom:10px;
+    border:2px solid #e232d8;
+    border-radius:50%;
+    width:30%;
+    margin-left: 50px;
+    background-color:#f9f9f9;
+}
+
+.circle-content{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.trusted__citation {
+    font-size:74px;
+    color:#0372e3;
+    font-family: 'Playfair Display', serif;
+    margin-bottom:-40px;
+    margin-top:100px;
+}
+
+.trusted__text {
+    font-size:21.12px;
+    font-family:'Fauna One', serif;
+}
+
+.trusted__btext {
+    font-size:15.36px;
+    font-family:'Fauna One', serif;
+    color:#acacac;
+}
+.trusted__bltext {
+    font-size:15.36px;
+    font-family:'Fauna One', serif;
+    color:#212121;
+}
+
+
+
+.trusted__trustedby {
+    font-family: 'Playfair Display', serif;
+    font-size:46px;
+    margin-left:30px;
+}
+
+.questions {
+    margin-bottom:100px;
+}
+
+.questions__text {
+    font-family: 'Playfair Display', serif;
+    font-size:46px;
+}
+
+.questions__btext {
+    font-size:15.36px;
+    font-family:'Fauna One', serif;
+    color:#acacac;
+    margin-bottom:15px;
+}
+.questions__bltext {
+    font-size:15.36px;
+    font-family:'Fauna One', serif;
+    color:#212121;
+}
+.trusted {
+    margin-top:60px;
+}
+.form-check{
+font-size: 15.36px;
+font-family:'Fauna One', serif;
+}
+
+.logos i{
+    color:#acacac;
+    font-size:4.375vw;
+    margin-right:1.875vw;
+}
+
+.logos i:hover {
+    color:#96b8ef;
+}
+
+.bottom {
+    background-color: #0371e1;
+    margin-top:100px;
+}
+
+.bottom__text {
+    font-size:13.44px;
+    font-family:'Fauna One', serif;
+    color:#96b8ef;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.trusted__img {
+    position:relative;
+    right:-143px;
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-bar container{
+        justify-content: center;
+    }
+    .questions__right {
+        margin-top:100px;
+    }
+    .trusted__img {
+        width:60%;
+        position:relative;
+        right:-180px;
+    }
+
+    .button__blue {
+        margin-top: 25px;
+        color: #ffffff;
+        font-size: 17.28px;
+        font-family: 'Fauna One', serif;
+        background: linear-gradient(to right, #025dbb, #0480fd);
+        border: 0px;
+        border-radius: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-left: 0px;
+    }
+
+    .steps__step1 {
+        position:relative;
+        left:0px;
+        bottom:0px;
+        margin-left:45px;
+    }
+    
+    .steps__step2 {
+        position:relative;
+        bottom:0px;
+        left:0px;
+        margin-left:45px;
+    }
+    
+    .steps__step3 {
+        position:relative;
+        left:0px;
+        bottom:0px;
+        margin-left:45px;
+    }
+
+    .steps__img {
+        width: 0%;
+        height: auto;
+    }
+
+    .steps__steps {
+        justify-content: center;
+    }
+
+    .whiteinput {
+        background-color: #ffffff;
+        border:0px soild #dedede;
+        border-radius:5%;
+        position:relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .description {
+        padding-top: 160px;
+        padding-left:0px;
+    }
+
+    .trusted__img {
+        width:0%;
+    }
+}

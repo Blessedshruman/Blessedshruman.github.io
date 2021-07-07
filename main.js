@@ -1,0 +1,1 @@
+$('ul menu a[href^="#"').click
