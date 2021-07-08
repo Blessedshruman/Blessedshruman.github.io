@@ -519,27 +519,53 @@ font-family:'Fauna One', serif;
         padding-left: 45px;
         padding-right: 45px;
         margin-left: 0px;
+        position: relative;
+        left:4%;
+        
+    }
+
+    
+    .button__purple {
+        margin-top: 25px;
+        color: #ffffff;
+        font-size: 17.28px;
+        font-family: 'Fauna One', serif;
+        background: linear-gradient(to right, #a01898, #e333d9);
+        border: 0px;
+        border-radius: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-left: 0px;
+    }
+
+    .steps__ltext {
+        font-size:0px;
     }
 
     .steps__step1 {
         position:relative;
-        left:0px;
+        left:0%;
         bottom:0px;
-        margin-left:45px;
+        margin-bottom:30px;
+
+        
     }
     
     .steps__step2 {
         position:relative;
+        left:0%;
         bottom:0px;
-        left:0px;
-        margin-left:45px;
+        margin-bottom:30px;
     }
     
     .steps__step3 {
         position:relative;
-        left:0px;
+        left:0%;
         bottom:0px;
-        margin-left:45px;
+        margin-bottom:30px;
+
     }
 
     .steps__img {
@@ -549,6 +575,7 @@ font-family:'Fauna One', serif;
 
     .steps__steps {
         justify-content: center;
+        flex-direction: column;
     }
 
     .whiteinput {
@@ -563,6 +590,7 @@ font-family:'Fauna One', serif;
     .description {
         padding-top: 160px;
         padding-left:0px;
+        padding-bottom: 160px;
     }
 
     .trusted__img {
@@ -571,6 +599,67 @@ font-family:'Fauna One', serif;
 
     .description__img {
         width:0%;
+    }
+    
+    .head {
+        text-align:center;
+    }
+
+    .functions__text {
+        font-size: 18px;
+        font-family: 'Fauna One', serif;
+        color: #909090;
+        line-height:1;
+    }
+    
+    .functions__btext {
+        font-size: 18px;
+        font-family: 'Fauna One', serif;
+        color: #262626;
+        text-align: center;
+        line-height:1.1;
+    }
+
+    .functions__img {
+        float: left;
+        background-image: url(images\heart.png);
+    }
+
+    .whitebox__wide {
+        background: #ffffff;
+        padding-right:30px;
+        padding-left:30px;
+        padding-top:30px;
+        padding-bottom:30px;
+        border-radius:15px;
+        margin-bottom:30px;
+    }
+
+    .steps__number {
+        font-size: 17.3px;
+        font-family:'Fauna One', serif;
+        text-align: center;
+        margin-left:0%;
+        position:relative;
+        left:35%;
+    }
+
+    .circle-content{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    }
+
+    .steps__rtext {
+        position:relative;
+        bottom:180%;
+        justify-content: center;
+    }
+
+    .steps__right {
+        position:relative;
+        top:70%;
+        margin-right:0px;
     }
 
 }
