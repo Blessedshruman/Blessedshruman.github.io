@@ -16,6 +16,8 @@ ul,li {
 
 }
 
+
+
 .menu__item {
     font-family: 'Fauna One', serif;
     margin-left: 46px;
@@ -566,4 +568,9 @@ font-family:'Fauna One', serif;
     .trusted__img {
         width:0%;
     }
+
+    .description__img {
+        width:0%;
+    }
+
 }
