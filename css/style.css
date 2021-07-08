@@ -662,4 +662,8 @@ font-family:'Fauna One', serif;
         margin-right:0px;
     }
 
+    .logos {
+        justify-content: center;
+    }
+
 }
